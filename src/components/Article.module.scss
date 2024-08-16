@@ -1,0 +1,29 @@
+.article{
+    height: 400px;
+    margin: 20px 30px;
+    cursor: pointer;
+    background: white;
+    &:hover{
+        img{
+            transform: scale(1.1);
+        }
+    }
+    .description{
+        margin: 10px;
+        .title{
+            font-size: 18px;
+        }
+        .category{
+            color: var(--gray-2);
+        }
+    }
+}
+
+.imageContainer {
+    height: 300px;
+    overflow: hidden;
+    img {
+      transition: 1s transform;
+      width: 100%;
+    }
+}
