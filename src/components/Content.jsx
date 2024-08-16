@@ -1,9 +1,12 @@
 // import styles from "./Content.module.scss";
+import VpContent from "./VpContent";
 
 
 function Content() {
   return (
-    <div className="container"></div>
+    <div className="container">
+      <VpContent></VpContent>
+    </div>
   );
 }
 
