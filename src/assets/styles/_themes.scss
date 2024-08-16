@@ -1,0 +1,45 @@
+.title-logo{
+    font-size: 24px;
+    color: var(--gray-1);
+    transition: 0.4s text-shadow;
+    &:hover{
+        text-shadow: 2px 4px 30px rgba(0,0,0,0.6) ;
+    }
+}
+
+.btn {
+    padding: 5px 15px ;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s opacity;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+
+.btn-primary{
+    background-color: var(--gray-1);
+    color: white;
+    border: 2px solid var(--gray-1);
+}
+
+.btn-reverse-primary {
+    border: 2px solid var(--gray-1);
+    color: var(--gray-1);
+    background-color: white;
+}
+
+.underline-text{
+    &::after{
+        content: '';
+        display: block;
+        margin: auto;
+        width: 0;
+        height: 2px;
+        background-color: var(--text-color);
+        transition: 0.3s;
+    }
+    &:hover::after{
+        width: 100%;
+    }
+}
