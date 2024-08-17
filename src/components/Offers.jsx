@@ -6,7 +6,7 @@ function Offers(){
         <div className={styles.offer}>
             <div className={styles.OfferContainer}>
                 <h3 className="mb-20">Nos dernieres Offres</h3>
-                <div className={`{styles.offerElem} d-flex`}>
+                <div className={`${styles.offerElem} d-flex`}>
                     <Article></Article>
                     <Article></Article>
                     <Article></Article>

@@ -1,0 +1,26 @@
+.who {
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 600px;
+    margin-bottom: 15px;
+    .whoImg {
+        flex: 1;
+        background: url("https://images.pexels.com/photos/11761543/pexels-photo-11761543.jpeg?auto=compress&cs=tinysrgb&w=600") center center/cover;
+    }
+    .whoContentText{
+        flex: 1;
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            margin-bottom: 2rem;
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.3rem;
+            line-height: 1.8rem;
+        }
+    }
+    
+}
